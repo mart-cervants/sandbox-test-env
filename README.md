@@ -25,3 +25,4 @@ Go to To run the program use the following command:
 
 ## TODO
 1. Clean & refactor the code.
+2. Create Bronze, Silver and Gold tables (Where is going to be executed: Dataproc, Databricks?)

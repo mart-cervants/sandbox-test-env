@@ -14,9 +14,8 @@ class GcpObjets:
         else:
             return False 
 
-    def upload_file(self, source_file_name):
+    def upload_file(self, source_file_name, destination_blob_name):
 
-        destination_blob_name = "comments.csv"
         blob = self.bucket.blob(destination_blob_name)
         generation_match_precondition = 0
 

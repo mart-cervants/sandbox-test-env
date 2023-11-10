@@ -1,2 +1,4 @@
 main/sandbox_data_key.json
-first_stage/__pycache__/*
+landing_stage/__pycache__/*
+data/
+medallion_tables/bronze.sql
